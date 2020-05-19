@@ -16,6 +16,7 @@ import pandas as pd
 import os
 
 
+
 import sys
 if getattr(sys, 'frozen', False):
     # If the application is run as a bundle, the pyInstaller bootloader
@@ -28,7 +29,8 @@ else:
     
 class GUI(tk.Tk):
     def __init__(self, window): 
-
+        a = "soy un cambio"
+        b = "soy un branch"
         self.path_resultados = ''
         self.input_text_resultados= ''
         etiq_bt1 = "Archivo BD"
